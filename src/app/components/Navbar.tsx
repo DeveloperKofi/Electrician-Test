@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import Services from "../services/page";
+
 
 export default function Navbar() {
   return (
@@ -14,12 +14,12 @@ export default function Navbar() {
       <div className="hidden md:flex space-x-8">
         <Link href="/services" className="hover:text-yellow-500 transition">Services</Link>
         <Link href="#about" className="hover:text-yellow-500 transition">About</Link>
-        <Link href="#contact" className="hover:text-yellow-500 transition">Contact</Link>
+        <Link href="/contact" className="hover:text-yellow-500 transition">Contact</Link>
       </div>
 
       <div className="flex items-center gap-4">
-        <a href="tel:5551234567" className="font-semibold text-gray-700 hidden md:block">
-          (555) 123-4567
+        <a href="tel:0554145411" className="font-semibold text-gray-700 hidden md:block">
+          (055) 414-5411
         </a>
         <Button className="bg-yellow-500 hover:bg-yellow-600 text-black">
           Get a Quote

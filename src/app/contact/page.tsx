@@ -9,7 +9,7 @@ export default function Contact() {
             <main className="flex-grow flex flex-col items-center justify-center px-6 py-16">
                 <h1 className="text-4xl font-semibold mb-6">Contact Us</h1>
                 <p className="text-lg text-gray-600 mb-8 text-center max-w-2xl">
-                    Have questions or need a free estimate? We're here to help! Reach out to Nzema Electric Duo for all your electrical needs.  
+                    Have questions or need a free estimate? We're here to help! Reach out to Kapcan Electrical Services for all your electrical needs.  
                 </p>
                 <div className="bg-white shadow-lg rounded-2xl p-10 w-full max-w-md">
                     <form className="space-y-6">

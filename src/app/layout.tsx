@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 // SEO optimization
 export const metadata: Metadata = {
-  title: "Electric Co. | Residential & Commercial Electrical Services",
+  title: "Western Region Ghana Electrical Co. | Residential & Commercial Electrical Services",
   description: "Trusted Electricians serving Western Region Ghana homes and businesses Nzema Esiama area based",
 };
 

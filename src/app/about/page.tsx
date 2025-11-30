@@ -20,8 +20,7 @@ export default function About() {
                 <p className="text-lg text-gray-600 leading-relaxed max-w-2xl">
                     Whether you need electrical installations, repairs, or maintenance, we pride ourselves on our professionalism, quality workmanship, and exceptional customer service. At Kapcan Electrical Services, your satisfaction and safety are our top priorities.
                 </p>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
-                    {/* Change grid-cols-3 if 3 cards in a row vs 4 */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12 w-full max-w-7xl mx-auto px-4">
   {[
     {
       title: "Team planning with client",
@@ -51,9 +50,7 @@ export default function About() {
       <Image
         src={service.img}
         alt={service.title}
-        width={200}
-        height={250}
-        className="w-full h-56 object-cover"
+        className="w-full h-48 sm:h-56 object-cover"
       />
       <div className="p-6">
         <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
@@ -62,6 +59,7 @@ export default function About() {
     </div>
   ))}
 </div>
+
             {/* <Image src={team} alt="The team" height={300} width={250}/> */}
             </main>
                 <Footer />

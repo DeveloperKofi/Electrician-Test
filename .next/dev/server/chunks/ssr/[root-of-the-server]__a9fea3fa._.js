@@ -72,7 +72,7 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$g
 ;
 ;
 const metadata = {
-    title: "Electric Co. | Residential & Commercial Electrical Services",
+    title: "Western Region Ghana Electrical Co. | Residential & Commercial Electrical Services",
     description: "Trusted Electricians serving Western Region Ghana homes and businesses Nzema Esiama area based"
 };
 function RootLayout({ children }) {

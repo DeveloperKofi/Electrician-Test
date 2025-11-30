@@ -1,1 +1,8 @@
 node_modules
+.next
+out
+dist
+.env
+*.log
+
+# Version 1.0.1

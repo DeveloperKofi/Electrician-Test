@@ -4,9 +4,11 @@ import { Button } from "@/components/ui/button";
 import Navbar from "./components/Navbar";
 import Contact from "./components/Contact";
 import { Footer } from "./components/Footer";
-import fence  from "../../public/elec_gh.jpg";
-import sudden from "../../public/247.png";
+//import fence  from "../../public/elec_gh.jpg";
+//import sudden from "../../public/247.png";
 import biz from "../../public/biz_elec.png";
+import crib from "../../public/cribw.png";
+import fence from "../../public/fencer.png"
 // import elec from "../../public/elec-bg.png";
 //import Services from "./components/Services";
 //import Hero from "./components/Hero";
@@ -22,7 +24,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative w-full h-[80vh] flex flex-col justify-center items-center text-center bg-[url('/elec-bg.png')] bg-cover bg-center">
         <div className="absolute inset-0 bg-black/60" />
-        <div className="relative z-10 max-w-3xl px-4">
+        <div className="relative z-10 max-w-5xl px-4">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
             Powering Homes & Businesses
           </h1>
@@ -58,9 +60,9 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: "Fence",
-                desc: "From lighting upgrades to full home rewiring, we keep your home safe and efficient.",
-                img: fence,
+                title: "Home Wiring & Upgrades",
+                desc: "From lighting upgrades to full home rewiring, we keep your home safe and efficient. Additionally we install CCTV systems for enhanced security.",
+                img: crib,
               },
               {
                 title: "Commercial Electrical",
@@ -68,9 +70,9 @@ export default function Home() {
                 img: biz,
               },
               {
-                title: "Emergency Repairs",
-                desc: "Fast and reliable electrical troubleshooting, available 24/7 when you need us most.",
-                img: sudden,
+                title: "Fence, Outdoor Lighting, and Repairs",
+                desc: "Full perimeter fence installations, outdoor lighting solutions, and prompt electrical repairs to keep your property secure and well-lit.",
+                img: fence,
               },
             ].map((service) => (
               <div

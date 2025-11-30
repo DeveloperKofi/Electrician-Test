@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Contact from "./components/Contact";
 import { Footer } from "./components/Footer";
 //import fence  from "../../public/elec_gh.jpg";
-import sudden from "../../public/247.png";
+//import sudden from "../../public/247.png";
 import biz from "../../public/biz_elec.png";
 import crib from "../../public/cribw.png";
 import fence from "../../public/fencer.png"
@@ -61,7 +61,7 @@ export default function Home() {
             {[
               {
                 title: "Home Wiring & Upgrades",
-                desc: "From lighting upgrades to full home rewiring, we keep your home safe and efficient.",
+                desc: "From lighting upgrades to full home rewiring, we keep your home safe and efficient. Additionally we install CCTV systems for enhanced security.",
                 img: crib,
               },
               {
@@ -70,8 +70,8 @@ export default function Home() {
                 img: biz,
               },
               {
-                title: "Emergency Repairs",
-                desc: "Fast and reliable electrical troubleshooting, available 24/7 when you need us most.",
+                title: "Fence, Outdoor Lighting, and Repairs",
+                desc: "Full perimeter fence installations, outdoor lighting solutions, and prompt electrical repairs to keep your property secure and well-lit.",
                 img: fence,
               },
             ].map((service) => (

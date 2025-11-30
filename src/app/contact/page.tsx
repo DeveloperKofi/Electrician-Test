@@ -12,23 +12,11 @@ export default function Contact() {
                     Have questions or need a free estimate? We're here to help! Reach out to Kapcan Electrical Services for all your electrical needs.  
                 </p>
                 <div className="bg-white shadow-lg rounded-2xl p-10 w-full max-w-md">
-                    <form className="space-y-6">
-                        <div>
-                            <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
-                            <input type="text" id="name" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-yellow-500 focus:border-yellow-500" placeholder="Your Name" />
-                        </div>
-                        <div>
-                            <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
-                            <input type="email" id="email" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-yellow-500 focus:border-yellow-500" placeholder="Your email" />
-                        </div>
-                        <div>
-                            <label htmlFor="message" className="block text-sm font-medium text-gray-700">Message</label>
-                            <textarea id="message" rows={4} className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-yellow-500 focus:border-yellow-500" placeholder="Your message"></textarea>
-                        </div>
-                        <button type="submit" className="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-3 rounded-lg shadow-md transition">
-                            Send Message
-                        </button>
-                    </form>
+                    <h2 className="space-y-6">
+                        Book us today at <a href="tel:0554145411" className="text-yellow-500 font-semibold">055 414-5411</a>. <br/>
+                        Or email us at <a href="mailto: nemifrancis774@gmail.com" className="text-yellow-500 font-semibold">nemifrancis774@gmail.com </a> <br />
+                        We can also be reached at <a href="tel:+233 55 790 6780" className="text-yellow-500 font-semibold">+233 55 790 6780</a>
+                    </h2>
                 </div>
             </main>
         </div>

@@ -16,7 +16,7 @@ const Footer = ()=>{
             children: [
                 "© ",
                 new Date().getFullYear(),
-                " BrightVolt Electrical — All Rights Reserved."
+                " Meech Enterprises — All Rights Reserved."
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/components/Footer.tsx",

@@ -25,8 +25,8 @@ function Services() {
     <div className="min-h-screen flex flex-col bg-gray-50">
       <Navbar />
       <main className="flex-grow pt-24 pb-20 px-6">
-      <h1>
-        Our Services but not limited to:
+      <h1 className="text-4xl font-semibold text-center mb-10">
+        Our Services are but not limited to:
       </h1>
 
       {/* Services List */}

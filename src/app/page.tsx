@@ -31,9 +31,7 @@ export default function Home() {
           <p className="text-xl text-gray-200 mb-6">
             Reliable Residential & Commercial Electrical Services
           </p>
-          <Button className="bg-yellow-500 hover:bg-yellow-600 text-black text-lg px-6 py-3 rounded-lg">
-            Get a Free Quote
-          </Button>
+         
           {/* Animated showing */}
           {/* <Hero /> */}
         </div>

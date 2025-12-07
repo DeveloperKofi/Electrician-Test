@@ -2,6 +2,7 @@
 
 import Navbar from "../components/Navbar"
 import { Phone, Mail } from "lucide-react"
+import { Footer } from "../components/Footer"
 
 export default function Contact() {
   return (
@@ -70,6 +71,7 @@ export default function Contact() {
 
         </div>
       </main>
+      <Footer />
     </div>
   )
 }

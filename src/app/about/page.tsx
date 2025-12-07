@@ -7,6 +7,7 @@ import team from "../../../public/team.png"
 import finished from "../../../public/fencefin.png"
 import care from "../../../public/careful.png"
 import home from "../../../public/homeent.png"
+//import pole from "../../../public/videos/pole.MP4"
 
 export default function About() {
     return (
@@ -58,6 +59,13 @@ export default function About() {
       </div>
     </div>
   ))}
+</div>
+
+<div>
+  <video
+    src="videos/pole.MP4"
+    controls
+    ></video>
 </div>
 
             {/* <Image src={team} alt="The team" height={300} width={250}/> */}

@@ -4,6 +4,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import { useCallback, useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import Spinner from "./Spinner";
 
 export default function VideoCarousel() {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
@@ -32,6 +33,7 @@ export default function VideoCarousel() {
         <div className="flex">
           {slides.map((i) => (
             <div className="flex-shrink-0 w-full" key={i}>
+              
               <video
                 src={`/videos/video${i + 1}.mp4`}
                 controls

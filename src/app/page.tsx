@@ -9,6 +9,7 @@ import { Footer } from "./components/Footer";
 import biz from "../../public/biz_elec.png";
 import crib from "../../public/cribw.png";
 import fence from "../../public/fencer.png"
+import Hero from "./components/Hero";
 // import elec from "../../public/elec-bg.png";
 //import Services from "./components/Services";
 //import Hero from "./components/Hero";
@@ -22,20 +23,10 @@ export default function Home() {
       <Navbar />
      <main className="flex flex-col items-center bg-gray-50 text-gray-800">
       {/* Hero Section */}
-      <section className="relative w-full h-[80vh] flex flex-col justify-center items-center text-center bg-[url('/elec-bg.png')] bg-cover bg-center">
-        <div className="absolute inset-`0 bg-black/60" />
-        <div className="relative z-10 max-w-5xl px-4">
-          <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
-            Powering Homes & Businesses
-          </h1>
-          <p className="text-xl text-black-200 mb-6">
-            Reliable Residential & Commercial Electrical 
-          </p>
-         
-          {/* Animated showing */}
-          {/* <Hero /> */}
-        </div>
-      </section>
+      {/* <section className="relative w-full min-h-screen flex flex-col justify-center items-center text-center bg-[url('/loveyoself.png')] bg-contain bg-center bg-no-repeat bg-black"> */}
+    
+        <Hero />
+      
 
       {/* About Section */}
       {/* <About /> */}

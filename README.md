@@ -1,2 +1,2 @@
 # Electrician-Test
-Example website of what a electrician in Ghana
+Example website of a electrician portfolio in Ghana

@@ -3,7 +3,7 @@
 import Image from "next/image"
 import { Footer } from "../components/Footer"
 import Navbar from "../components/Navbar"
-import team from "../../../public/team.png"
+import team3 from "../../../public/team3.png"
 import finished from "../../../public/fencefin.png"
 import care from "../../../public/careful.png"
 import home from "../../../public/homeent.png"
@@ -27,7 +27,7 @@ export default function About() {
     {
       title: "Team planning with client",
       desc: "Our team collaborates closely with clients to understand their unique electrical needs and deliver customized solutions.",
-      img: team,
+      img: team3,
     },
     {
       title: "Full Security Electrical Fence Installation",
